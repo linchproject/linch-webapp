@@ -10,8 +10,6 @@
               acquireIncrement="10"
               type="com.mchange.v2.c3p0.ComboPooledDataSource"
               factory="org.apache.naming.factory.BeanFactory"
-              testConnectionOnCheckout="true"
-              preferredTestQuery="SELECT 1"
               />
 
 </Context>
